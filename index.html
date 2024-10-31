@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Perusahaan Annur Travel</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Travel Haji & Umroh</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="beranda" class="container mt-5">
+        <h1>Selamat Datang di Travel Haji dan Umroh</h1>
+        <p>Kami menyediakan layanan terbaik untuk perjalanan haji dan umroh Anda.</p>
+    </div>
+
+    <div id="profil" class="container mt-5">
+        <h2>Profil Perusahaan</h2>
+        <p>Travel Haji dan Umroh kami berdiri sejak tahun 2010, berkomitmen memberikan pelayanan terbaik kepada jamaah.</p>
+    </div>
+
+    <div id="layanan" class="container mt-5">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Paket Haji Terjangkau</li>
+            <li>Paket Umroh Reguler</li>
+            <li>Paket Umroh VIP</li>
+            <li>Pendampingan 24/7</li>
+        </ul>
+    </div>
+
+    <section id="galeri" class="mt-5">
+        <h2>Galeri</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="annur1.jpg" class="img-fluid" alt="Desa 1">
+            </div>
+            <div class="col-md-4">
+                <img src="annur2.jpg" class="img-fluid" alt="Desa 2">
+            </div>
+            <div class="col-md-4">
+                <img src="OIP.jpg" class="img-fluid" alt="Desa 3">
+            </div>
+        </div>
+    </section>
+
+    <div id="kontak" class="container mt-5">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@travelhaji.com</p>
+        <p>Telepon: +62 123 456 789</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
